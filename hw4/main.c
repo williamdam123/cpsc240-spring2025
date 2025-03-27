@@ -15,7 +15,7 @@ int main()
 
     char* result = executive();
 
-    printf("\nOh, %s. We hope you enjoyed your arrays. Do come again.\n", result);
+    printf("\nOh, %s.  We hope you enjoyed your arrays.  Do come again.\n", result);
     printf("A zero will be returned to the operating system.\n");
 
     return 0;
