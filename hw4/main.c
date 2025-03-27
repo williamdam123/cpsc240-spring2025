@@ -1,8 +1,8 @@
 // Author information
-//   Author name : Dang Khoa Nguyen
-//   Author email: colormak3r@csu.fullerton.edu
+//   Author name : William Dam
+//   Author email: wdam1@csu.fullerton.edu
 //   Author section: 240-3
-//   Author CWID : 885089755
+//   Author CWID : 884616384
 
 #include "stdio.h"
 
