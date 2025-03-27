@@ -17,13 +17,13 @@ max_size equ 60
 
 segment .data
     prompt_name db "Please enter your name: ", 0
-    prompt_title db "Please enter your title (Mr, Ms, Sargent, Chief, Project Leader,etc): ", 0
+    prompt_title db "Please enter your title (Mr,Ms,Sargent,Chief,Project Leader,etc): ", 0
     prompt_welcome db "Nice to meet you %s %s", 10, 10, 0
     prompt_instruction_1 db "This program will generate 64-bit IEEE float numbers.", 10, 0
-    prompt_instruction_2 db "How many numbers do you want. Today’s limit is 100 per customer: ", 0
-    prompt_print_num_1 db "Your numbers have been stored in an array. Here is that array.", 10, 10, 0
-    prompt_print_num_2 db 10, "The array will now be normalized to the range 1.0 to 2.0. Here is the normalized array.", 10, 10, 0
-    prompt_goodbye db 10, "Good bye %s. You are welcome any time.", 10, 0
+    prompt_instruction_2 db "How many numbers do you want.  Today’s limit is 100 per customer: ", 0
+    prompt_print_num_1 db "Your numbers have been stored in an array.  Here is that array.", 10, 10, 0
+    prompt_print_num_2 db 10, "The array will now be normalized to the range 1.0 to 2.0  Here is the normalized array.", 10, 10, 0
+    prompt_goodbye db 10, "Good bye %s.  You are welcome any time.", 10, 0
 
 segment .bss
     align 64
