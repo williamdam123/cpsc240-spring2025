@@ -28,7 +28,7 @@ echo "Compiling the sort file..."
 gcc -c -m64 -Wall -fno-pie -no-pie -o sort.o sort.c -std=c17
 
 echo "Linking the object files..."
-gcc -m64 -no-pie -o hw5.out -std=c17 show_array.o main.o executive.o fill_random_array.o normalize_array.o isnan.o sort.o
+gcc -m64 -no-pie -o hw4.out -std=c17 show_array.o main.o executive.o fill_random_array.o normalize_array.o isnan.o sort.o
 
 echo "Running hw4..."
 ./hw4.out
