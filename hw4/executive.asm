@@ -14,6 +14,7 @@ extern fill_random_array
 extern show_array
 extern normalize_array
 max_size equ 60
+max_numbers equ 100
 
 segment .data
     prompt_name db "Please enter your name: ", 0
